@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+.join {
+	height: 100vh;
+	position: relative;
+}
+.join > div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+}
+
+.join > div > input {
+	border: 1px solid black;
+	margin-top: 10px;
+}
+
+.chat-room {
+	position: relative;
+	height: 100vh;
+}
+.input-text {
+	width: 100%;
+}
+.conversation {
+	height: 90%;
+	width: 97%;
+	margin: auto;
+	overflow-y: scroll;
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	margin-bottom: 20px;
+}
+.conversation div {
+	padding: 10px 0;
+	display: flex;
+	align-items: baseline;
+}
+p {
+	margin: 0;
+}
+.name-user {
+	font-size: 20px;
+	font-weight: bold;
+	padding-right: 5px;
+}
+.input-text input {
+	height: 10%;
+	width: 95%;
+	padding: 15px;
+}
